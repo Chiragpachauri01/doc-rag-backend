@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pypdf
+qdrant-client
+python-dotenv
+google-generativeai
+pymupdf
+pytesseract
+Pillow

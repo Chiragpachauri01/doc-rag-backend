@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Virtual environment
+venv/
+ENV/
+
+# Local data
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
