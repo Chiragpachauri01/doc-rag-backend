@@ -30,7 +30,7 @@ def health():
 
 @app.get("/check-key")
 def check_key():
-    return {"loaded": os.getenv("GOOGLE_API_KEY")}
+    return {"loaded": os.getenv("GEMINI_API_KEY")}
 
 @app.post("/upload")
 async def upload(file: UploadFile = File(...)):

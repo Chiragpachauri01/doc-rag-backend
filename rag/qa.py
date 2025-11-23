@@ -2,8 +2,10 @@ import os
 import google.generativeai as genai
 from .embeddings import get_embedding
 from .vectorstore import search_chunks
+from dotenv import load_dotenv
+load_dotenv()
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-genai.configure(api_key="AIzaSyDd1j_Vve0u8ZHPpV2RzzGwk0CIEqiALbI")
 
 def answer_question(question: str):
     query_emb = get_embedding(question)
@@ -32,7 +34,7 @@ Question: {question}
 Answer clearly. If not found, say: 'Answer not found in provided documents.'
 """
 
-    model = genai.GenerativeModel("models/gemini-flash-latest")
+    model = genai.GenerativeModel("models/gemini-pro-latest")
     response = model.generate_content(prompt)
 
     return {

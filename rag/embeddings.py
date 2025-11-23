@@ -1,7 +1,9 @@
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+load_dotenv()
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-genai.configure(api_key="AIzaSyDd1j_Vve0u8ZHPpV2RzzGwk0CIEqiALbI")
 
 def get_embedding(text: str):
     text = text.strip() or "empty"
