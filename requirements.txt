@@ -8,3 +8,9 @@ google-generativeai
 pymupdf
 pytesseract
 Pillow
+
+# Authentication dependencies
+passlib[bcrypt]
+bcrypt
+python-jose[cryptography]
+cryptography
