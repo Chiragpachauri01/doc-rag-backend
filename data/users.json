@@ -1,0 +1,17 @@
+{
+  "harami@gmail.com": {
+    "email": "harami@gmail.com",
+    "hashed_password": "$pbkdf2-sha256$29000$J6S0lrJWSukdw1hrDeGcUw$KxnZ6oVhgfi6zb/sh2MdGMljAg8BM55izzA4EEeotiM",
+    "full_name": ""
+  },
+  "a@gmail.com": {
+    "email": "a@gmail.com",
+    "hashed_password": "$pbkdf2-sha256$29000$CmHMeQ8hZEypFWLMmZNSig$A2rkNrYCfTrgw65oIpFalubjCCryO.r7uZzBIzBF4hE",
+    "full_name": "a"
+  },
+  "a": {
+    "email": "a",
+    "hashed_password": "$pbkdf2-sha256$29000$MUbIWUvJWes9h7CWklLqvQ$b8eeoe8dqaKZHJo4TJsHyU2Y9NinS2MSaE1Q.QxryXU",
+    "full_name": ""
+  }
+}
